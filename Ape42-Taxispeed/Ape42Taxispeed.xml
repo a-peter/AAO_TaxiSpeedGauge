@@ -1,0 +1,19 @@
+<Gauge Name="Ape42 Taxispeed" Version="1.0">
+	<!-- <Visible>(L:Ape42_taxi_speed_invisible) !</Visible> -->
+	<Visible> (A:SIM ON GROUND, Bool) (A:GROUND VELOCITY, knots) 30 &gt;= (L:Ape42_taxi_speed_invisible) (A:GROUND VELOCITY, knots) 28 &gt; and or and ! d (&gt;L:Ape42_taxi_speed_invisible)</Visible>
+	<Image Name="background.png"  ImageSizes="378,64,378,64" />
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Gauge version 1.0 -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<Element>
+		<Position X="189" Y="34" />
+		<GaugeText>
+			<FontFace>Arial</FontFace>
+			<FontHeight>30</FontHeight>
+			<FontColor>0x404040</FontColor>
+			<Value>Speed: %(A:GROUND VELOCITY, knots)%!01.1f! kts</Value>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<Bold>1</Bold>
+		</GaugeText>
+	</Element>
+</Gauge>
