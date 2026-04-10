@@ -1,6 +1,6 @@
 # Ape42 Taxi Speed Gauge
 
-A custom gauge for [Lorby Axis and Ohs (AAO)](https://lorby-si.webs.com/) that displays the aircraft's current ground speed in knots during taxi operations in Microsoft Flight Simulator 2020/2024.
+A custom gauge for [Lorby Axis and Ohs (AAO)](https://www.axisandohs.com/) that displays the aircraft's current ground speed in knots during taxi operations in Microsoft Flight Simulator 2020/2024.
 
 ## Features
 
