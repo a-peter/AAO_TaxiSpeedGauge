@@ -32,6 +32,8 @@ A custom gauge for [Lorby Axis and Ohs (AAO)](https://www.axisandohs.com/) that 
 ```
 Ape42-Taxispeed/
 ├── Ape42Taxispeed.xml   # Gauge definition
+├── README.md            # This file
+├── LICENSE              # License terms
 └── 1024/
     └── background.png   # Gauge background image (378 × 64 px)
 ```
