@@ -1,6 +1,6 @@
-<Gauge Name="Ape42 Taxispeed" Version="1.0">
+<Gauge Name="Ape42 Taxispeed" Version="1.1">
 	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-	<!-- Gauge version 1.0 -->
+	<!-- Gauge version 1.1 -->
 	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 	<Visible>(A:SIM ON GROUND, Bool) ! (A:GROUND VELOCITY, knots) 30 &gt;= or (L:Ape42_taxi_speed_invisible) (A:GROUND VELOCITY, knots) 28 &gt;= and or d (&gt;L:Ape42_taxi_speed_invisible) !</Visible>
 	<Image Name="background.png"  ImageSizes="378,64,378,64" />
