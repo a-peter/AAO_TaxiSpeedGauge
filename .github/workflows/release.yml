@@ -25,7 +25,7 @@ jobs:
         run: echo "name=${{ github.event.inputs.tag || github.ref_name }}" >> $GITHUB_OUTPUT
 
       - name: Create zip
-        run: zip -r Ape42-Taxispeed-${{ steps.tag.outputs.name }}.zip Ape42-Taxispeed/ README.md
+        run: cp README.md Ape42-Taxispeed/ && zip -r Ape42-Taxispeed-${{ steps.tag.outputs.name }}.zip Ape42-Taxispeed/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
