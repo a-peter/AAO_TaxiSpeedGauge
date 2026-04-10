@@ -20,7 +20,7 @@ A custom gauge for [Lorby Axis and Ohs (AAO)](https://www.axisandohs.com/) that 
 
 ## Installation
 
-1. Download the latest `Ape42-Taxispeed-vX.X.zip` from the [Releases](../../releases) page.
+1. Download the latest `Ape42-Taxispeed-vX.X.zip` from the [Releases](https://github.com/a-peter/AAO_TaxiSpeedGauge/releases) page.
 2. Extract the `Ape42-Taxispeed` folder into your AAO UserGauges directory:
    ```
    %USERPROFILE%\Documents\LorbyAxisAndOhs Files\UserGauges\
