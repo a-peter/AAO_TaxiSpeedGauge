@@ -38,7 +38,7 @@ Ape42-Taxispeed/
 
 ## Requirements
 
-- [Lorby Axis and Ohs](https://lorby-si.webs.com/)
+- [Lorby Axis and Ohs](https://www.axisandohs.com/)
 - Microsoft Flight Simulator 2020 or 2024
 
 ## License
